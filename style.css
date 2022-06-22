@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #eee;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/001/893/870/original/valentine-s-day-red-hearts-background-free-vector.png);
 }
 
 header {
@@ -19,7 +19,7 @@ header h1{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 3rem;
   font-weight: 900;
-  color: #000;
+  color: #eee6;
 }
 
 .gallery-container {
@@ -56,6 +56,10 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #000;
+    color: #eee;
     font-style: italic;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
